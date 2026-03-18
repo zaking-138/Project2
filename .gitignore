@@ -1,9 +1,9 @@
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-.kotlin
+#.gradle
+#build/
+#!gradle/wrapper/gradle-wrapper.jar
+#!**/src/main/**/build/
+#!**/src/test/**/build/
+#.kotlin
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -91,12 +91,6 @@ cmake-build-*/
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
-# File-based project format
-*.iws
-
-# IntelliJ
-out/
-
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
@@ -157,7 +151,6 @@ fabric.properties
 
 ### macOS ###
 # General
-.DS_Store
 .AppleDouble
 .LSOverride
 
